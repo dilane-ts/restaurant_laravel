@@ -5,13 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Tasty | Restaurant </title>
-   {{-- import '/build/assets/app-CS5BuN65.css'
-    import '/build/assets/app-DzM03xgu.css'
-    import '/build/assets/app-Fshv-TM3.css'--}}
-    <link rel="stylesheet" href="/build/assets/app-CS5BuN65.css">
-    <link rel="stylesheet" href="/build/assets/app-DzM03xgu.css">
-    <link rel="stylesheet" href="/build/assets/app-Fshv-TM3.css">
-    <script src="/build/assets/app-1eloeq7T.js" type="module"></script>
+    @vite(['resources/js/app.js', 'resources/scss/app.scss', 'resources/css/app.css'])
+    @yield('styles')
 </head>
 <body class="">
 <div class="">
